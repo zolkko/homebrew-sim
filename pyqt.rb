@@ -19,11 +19,11 @@ class Pyqt < Formula
 
   depends_on "qt"
 
-  if build.with? "python3"
-    depends_on "sip" => "with-python3"
-  else
-    depends_on "sip"
-  end
+  #if build.with? "python3"
+  #  depends_on "sip" => "with-python3"
+  #else
+  #  depends_on "sip"
+  #end
 
   def install
     # On Mavericks we want to target libc++, this requires a non default qt makespec
