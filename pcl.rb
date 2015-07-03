@@ -11,7 +11,7 @@ class Pcl < Formula
   depends_on 'boost'
   depends_on 'eigen'
   depends_on 'flann'
-  depends_on 'vtk' => 'with-qt'
+  depends_on 'zolkko/sim/vtk' => 'with-qt'
   depends_on 'qhull' => :recommended
   depends_on 'glew' => :recommended
   # depends_on 'sphinx' => :python
